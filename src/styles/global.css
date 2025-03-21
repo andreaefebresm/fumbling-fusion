@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import '@fontsource/barlow';
+@import '@fontsource/barlow-condensed';
+
+html {
+    margin: 0 1.25rem;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+  }
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+}

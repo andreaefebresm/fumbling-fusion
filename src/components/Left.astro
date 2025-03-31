@@ -3,9 +3,19 @@ import Application from "./Application.astro";
 ---
 
 <div>
-    <div class="grid grid-cols-6 gap-2">
-        <h1 class="col-span-4 col-start-2 text-3xl">
-            Welcome to Pentair Everpure Sizing Europe.
-        </h1>
+    <div class="grid grid-rows-3 grid-cols-12 gap-2 ">
+        <div class="col-span-4 col-start-2">
+            <h1 class=" text-3xl">
+                Welcome to Pentair Everpure Sizing Europe.
+            </h1>
+            <h3 class="row-start-2  text-2xl">
+                Here you'll be able to quickly find the right Everpure solution for your application.
+            </h3>
+            <p class="row-start-3">
+                For other assistance, please contact Pentair Everpure Support foodservice.eu@pentair.com
+                If you are visiting from US please, click here www.everpuresizing.com
+            </p>
+            <Application />
+        </div>
     </div>
 </div>

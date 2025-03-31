@@ -1,8 +1,13 @@
 ---
+export interface Props {
+    text: string;
+    type?: 'button' | 'submit' | 'reset';
+    class?: string;
+  }
+  
+  const { text, type = 'button', class: className = '' } = Astro.props;
 ---
 
-<div class="flex-1 bg-[#F9F8F8] rounded-md">
-    <p class="p-5 ">
-        Coffee
-    </p>
-</div>
+<button type={type} class={`px-4 py-2 w-full rounded-full bg-white text-[#a2a2a2] text-sm text-left inset-shadow-sm border-sm ${className}`}>
+  {text}
+</button>

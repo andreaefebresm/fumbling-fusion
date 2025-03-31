@@ -8,6 +8,6 @@ export interface Props {
   const { text, type = 'button', class: className = '' } = Astro.props;
 ---
 
-<button type={type} class={`px-4 py-2 w-full rounded-full bg-white text-[#a2a2a2] text-sm text-left inset-shadow-sm border-sm ${className}`}>
+<button type={type} class={`px-4 py-2 w-full rounded-full bg-white text-[#a2a2a2] text-sm text-left inset-shadow-sm border-sm hover:bg-[#0C3471] hover:text-white ${className}`}>
   {text}
 </button>

@@ -1,6 +1,11 @@
 ---
 import Application from "./Application.astro";
+import Options from "./Options.astro";
+import Right from "./Right.astro"
+import Configurator from "../components/Configurator.jsx";
 ---
+
+
 
 <div>
     <div class="grid grid-rows-3 grid-cols-12 gap-4 ">
@@ -16,6 +21,11 @@ import Application from "./Application.astro";
                 If you are visiting from US please, click here www.everpuresizing.com
             </p>
             <Application />
+            <Options />
+        </div>
+        <div class="col-span-6">
+            <Right />
         </div>
     </div>
+   
 </div>

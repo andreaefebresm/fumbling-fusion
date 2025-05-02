@@ -1,16 +1,16 @@
 @import "tailwindcss";
 @import '@fontsource/barlow';
 
+@theme {
+    --color-blue: #0C3471;
+    --font-titles: Barlow SemiBold, sans-serif;
+    --font-p: Barlow, sans-serif;
+    --color-grey: #5d5d5d;
+    --text-m: 1.5rem;
+    --text-xs: 1;
+    --text-xl: 2.5rem;
+}
 
 html {
     margin: 0 1.25rem;
-}
-
-p {
-    font-family: 'Barlow', sans-serif;
-  }
-
-h1 {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
 }
